@@ -15,11 +15,11 @@ function createFareMultiplier(int){
   }
 }
 
-const fareDoubler =()=>{
+function fareDoubler (){
   return createFareMultiplier(2);
 }
 
-const fareTripler = ()=>{
+function fareTripler  (){
   return createFareMultiplier(3);
 }
 
