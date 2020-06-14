@@ -20,5 +20,10 @@ const fareDoubler =()=>{
 }
 
 const fareTripler = ()=>{
-  return createFareMultiplier(3)
+  return createFareMultiplier(3);
+}
+
+function selectDifferentDrivers(drivers,callbackFn){
+  return callbackFn(drivers);
+
 }
